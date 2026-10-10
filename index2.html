@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: red;
+            display: block;
+            font-size: 20px;
+        }
+        input{
+            width: 70%;
+            padding: 20px;
+            margin: 20px;
+        }
+        #btn{
+            width: 74%;
+            font-size: 24px;
+            color: antiquewhite;
+            background-color: black;
+        }
+        form{
+            background-color: black;
+            width: 50%;
+            padding: 40px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="dashboard.html">
+        <h1 style="color: red;">login form</h1>
+        <div>
+            <label for="email">Email</label>
+            <input type="Email" placeholder="enter your email" required>
+        </div>
+        <div>
+            <label for="psw">Password</label>
+            <input type="password" placeholder="enter your password" required>
+        </div>
+        <input type="submit" value="login" id="btn">
+    </form>
+</body>
+</html>
